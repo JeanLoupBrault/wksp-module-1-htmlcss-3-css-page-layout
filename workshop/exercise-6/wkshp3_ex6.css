@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-content > h2 {
+    margin: 8px;
+}
+
+.main-content > p {
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.main-content > a {
+    margin-top: 6px;
+  }
+
+.brow {
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 8.5px 15px;
+    line-height: 14.7px;
+    font-size: 1rem;
+    display: inline-block;
+
+}
+
+.link {
+    color: #0070c9;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link:hover {
+    text-decoration: underline;
+  }
+
+.link::after {
+    content: '>';
+    padding-left: 8px;
+    display: inline-block;
+}
+
+
+
+

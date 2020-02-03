@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+} 
+
+.grid-container {
+    grid-template-rows: 100px 300px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+
+
+
+.alert-primary {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+
+
+
